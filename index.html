@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="billTotalDiv">
+        <label class="top bill-total"
+          >Bill total
+          <p class="currency">$</p>
+          <input class="bottom" type="text" placeholder="0.00" />
+        </label>
+      </div>
+      <div class="tipDiv">
+        <label class="top tip-amount"
+          >Tip
+          <p class="percentage">%</p>
+          <input class="bottom" type="text" placeholder="10" />
+        </label>
+      </div>
+
+      <div class="people-and-totals">
+        <div class="numPeopleDiv">
+          <p>People</p>
+          <div class="buttons-and-people">
+            <button class="plus">+</button>
+            <p class="numPeople"></p>
+            <button class="minus">-</button>
+          </div>
+        </div>
+        <div class="totalPerPersonDiv">
+          <p>Total per Person</p>
+          <div id="totalPersonAmount"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./main.js"></script>
+</html>

@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(164, 165, 233);
+}
+
+.main-container {
+    background-color:rgb(37, 37, 59);
+    color: white;
+    margin: 50px auto;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    max-width: 500px;
+    height: 500px;
+}
+
+
+.top {
+    display: block;
+    padding: 8px;
+    margin-bottom: 2px;
+}
+
+.bottom {
+    display: block;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 24px;
+    margin-top: 10px;
+    background-color: rgb(56, 56, 80);
+    color: white;
+    width: 100%;
+
+}
+
+.bill-total,
+.tip-amount {
+    position: relative;
+}
+
+.currency,
+.percentage {
+    position: absolute;
+}
+
+.currency {
+    top: 46;
+    left: 16;
+    font-size: 1.1rem;
+}
+
+.percentage {
+    top: 47;
+    left: 14;
+    font-size: 1.1rem;
+}
+
+.numPeopleDiv {
+    padding-left: 8px;
+}
+
+.buttons-and-people {
+    display: flex;
+}
+
+.plus,
+.minus {
+    border: none;
+    border-radius: 100%;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: rgb(164, 165, 233);
+    color: black;
+    font-size: 1.1rem;
+}
+
+.plus:active,
+.minus:active {
+    background-color: rgb(127, 128, 232);
+}
+
+.people-and-totals {
+    display: flex;
+    padding-top: 12px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
